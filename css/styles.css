@@ -41,3 +41,22 @@ nav ul li {
 #desktop li a:hover {
     background-color: lightblue;
 }
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url('../img/background-header.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 25% 25%;
+    height: 31.25rem;
+}
+
+header .content {
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
