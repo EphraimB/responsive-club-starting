@@ -54,7 +54,7 @@ header {
 }
 
 header .content {
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.8);
     color: white;
     text-align: center;
     width: 100%;
@@ -72,7 +72,7 @@ header .content {
 }
 
 #tesla .content {
-    background-color: #E82127;
+    background-color: #E82127F0;
     color: white;
     text-align: center;
     width: 100%;
@@ -90,7 +90,7 @@ header .content {
 }
 
 #spacex .content {
-    background-color: #A7A9AC;
+    background-color: #A7A9ACF0;
     color: white;
     text-align: center;
     width: 100%;
@@ -108,7 +108,7 @@ header .content {
 }
 
 #boring-company .content {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.8);
     color: black;
     text-align: center;
     width: 100%;
