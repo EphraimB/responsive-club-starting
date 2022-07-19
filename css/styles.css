@@ -77,3 +77,21 @@ header .content {
     text-align: center;
     width: 100%;
 }
+
+#spacex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url('../img/spacex.jpg');
+    background-size: 50%;
+    background-position: center;
+    height: 31.25rem;
+}
+
+#spacex .content {
+    background-color: #A7A9AC;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
