@@ -5,7 +5,6 @@ html {
 
 nav ul {
     background-color: black;
-    padding: 1rem;
 }
 
 nav ul {
@@ -17,19 +16,18 @@ nav ul li {
     list-style-type: none;
 }
 
-.desktop {
+#desktop {
     display: flex;
     justify-content: right;
-    align-content: center;
+    align-items: center;
 }
 
-.desktop li {
+#desktop li {
     list-style-type: none;
-    padding-right: 1rem;
     background-color: blue;
 }
 
-.desktop li a {
+#desktop li a {
     display: block;
     color: white;
     text-decoration: none;
@@ -37,11 +35,11 @@ nav ul li {
     padding: 2rem;
 }
 
-.desktop li a:hover {
+#desktop li a:hover {
     background-color: lightblue;
 }
 
-.mobile {
+#mobile {
     display: none;
     content: "";
     margin-top: auto;
@@ -52,11 +50,11 @@ nav ul li {
 }
 
 @media only screen and (max-width: 768px) {
-    .mobile {
+    #mobile {
         display: block;
     }
 
-    .desktop {
+    #desktop {
         display: none;
     }
 }
