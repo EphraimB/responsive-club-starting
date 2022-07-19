@@ -17,19 +17,19 @@ nav ul li {
     list-style-type: none;
 }
 
-#desktop {
+.desktop {
     display: flex;
     justify-content: right;
     align-content: center;
 }
 
-#desktop li {
+.desktop li {
     list-style-type: none;
     padding-right: 1rem;
     background-color: blue;
 }
 
-#desktop li a {
+.desktop li a {
     display: block;
     color: white;
     text-decoration: none;
@@ -37,8 +37,28 @@ nav ul li {
     padding: 2rem;
 }
 
-#desktop li a:hover {
+.desktop li a:hover {
     background-color: lightblue;
+}
+
+.mobile {
+    display: none;
+    content: "";
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 14px;
+    height: 0;
+    box-shadow: 0 10px 0 1px #69737d, 0 16px 0 1px #69737d, 0 22px 0 1px #69737d;
+}
+
+@media only screen and (max-width: 768px) {
+    .mobile {
+        display: block;
+    }
+
+    .desktop {
+        display: none;
+    }
 }
 
 header {
