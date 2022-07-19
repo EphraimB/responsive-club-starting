@@ -47,15 +47,32 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    background-image: url('../img/background-header.avif');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 25% 25%;
+    background-image: url('../img/header-background.jpg');
+    background-size: 50%;
+    background-position: center;
     height: 31.25rem;
 }
 
 header .content {
     background-color: black;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+
+#tesla {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url('../img/tesla-fans.jpg');
+    background-size: 50%;
+    background-position: center;
+    height: 31.25rem;
+}
+
+#tesla .content {
+    background-color: #E82127;
     color: white;
     text-align: center;
     width: 100%;
