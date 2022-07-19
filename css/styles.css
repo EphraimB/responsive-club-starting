@@ -1,17 +1,16 @@
 html {
     font-size: 16px;
+    text-align: center;
 }
 
 nav ul {
     background-color: black;
     padding: 1rem;
-    /* text-align: right; */
 }
 
 nav ul {
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 
 nav ul li {
@@ -56,7 +55,6 @@ header {
 header .content {
     background-color: rgba(0, 0, 0, 0.8);
     color: white;
-    text-align: center;
     width: 100%;
 }
 
@@ -74,7 +72,6 @@ header .content {
 #tesla .content {
     background-color: #E82127F0;
     color: white;
-    text-align: center;
     width: 100%;
 }
 
@@ -92,7 +89,6 @@ header .content {
 #spacex .content {
     background-color: #A7A9ACF0;
     color: white;
-    text-align: center;
     width: 100%;
 }
 
@@ -110,6 +106,5 @@ header .content {
 #boring-company .content {
     background-color: rgba(255, 255, 255, 0.8);
     color: black;
-    text-align: center;
     width: 100%;
 }
