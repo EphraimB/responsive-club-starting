@@ -128,3 +128,14 @@ header .content {
     color: black;
     width: 100%;
 }
+
+#about-me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url('../img/ephraim-becker.jpg');
+    background-size: 50%;
+    background-position: center;
+    height: 31.25rem;
+}
